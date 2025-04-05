@@ -1,0 +1,30 @@
+Project: Predicting Student Performance Using Data Science
+Step-by-Step Process
+1. Data Loading & Cleaning
+Loaded data from CSV
+Checked for missing/null values (none found )
+2. Exploratory Data Analysis (EDA)
+Plotted distribution of grades
+Heatmap of correlations to see which features affect G3
+Example Insight: studytime and G3 are positively correlated
+3.Statistical Analysis
+T-test to compare grades of students who go out a lot vs. less
+Found that high social activity may reduce academic performance (p-value < 0.05)
+4.Feature Engineering
+Converted final grade G3 into binary
+Encoded categorical (text) data using LabelEncoder
+Scaled features using StandardScaler
+5.Model Building
+Split data into train and test (80-20)
+Applied two ML models:Logistic Regression, Random Forest Classifier
+6.Model Evaluation
+Measured accuracy, precision, recall, and confusion matrix
+Random Forest gave higher accuracy than Logistic Regression
+7.Final Results
+Important factors for passing: studytime, absences, failures, goout
+Random Forest was the best-performing model
+The project shows how statistics + ML can work together for insights and predictions
+Why is this Important?
+Helps schools and educators identify at-risk students early.
+Supports data-driven decisions for improving education strategies.
+Good example of applying real-world data science techniques like EDA, statistics, and ML.
